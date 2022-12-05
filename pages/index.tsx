@@ -16,7 +16,7 @@ export default function Home() {
         <div>
           <a href='/N2N/N2N_version.json'>
             <h2>
-            N2N_version.json1
+            N2N_version.json112
             </h2>
           </a>
         </div>
