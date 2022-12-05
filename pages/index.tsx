@@ -15,9 +15,10 @@ export default function Home() {
 
         <div>
           <a href='/N2N/N2N_version.json'>
-            <h2>
-            N2N_version.json
-            </h2>
+            <h2> N2N_version.json </h2>
+          </a>
+          <a href='/N2N/N2N管理工具1.0.exe'>
+            <h2>N2N管理工具1.0.exe </h2>
           </a>
         </div>
       </main>
