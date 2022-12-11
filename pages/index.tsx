@@ -20,6 +20,9 @@ export default function Home() {
           <a href='/N2N/N2N管理工具1.0.exe'>
             <h2>N2N管理工具1.0.exe </h2>
           </a>
+          <a href='/N2N/N2N管理工具1.1.exe'>
+            <h2>N2N管理工具1.1.exe </h2>
+          </a>
         </div>
       </main>
 
