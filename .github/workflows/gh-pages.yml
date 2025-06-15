@@ -31,11 +31,15 @@ jobs:
 
       - run: npm install
 
-      - run: npm run build --prefix main
+      - run: cd main && npm install && npm run build
+
+      - name: Verify build
+        run: ls -la main/dist
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./main/dist
+          publish_dir: main/dist
+          publish_branch: gh-pages
