@@ -1,0 +1,14 @@
+;aiu;
+
+[Update]
+Name = AutoCAD工具箱
+ProductVersion = 1.0.1.0
+URL = http://bnm2012.github.io/AutoCAD工具箱安装包/AutoCAD工具箱1.0.1.exe
+Size = 279523183
+SHA256 = BFF60C1D07101B85069E71F6190ACC52DD6A954BC7F4482D42CF03E5BA6F8238
+MD5 = ff2e4c6711e50ad2952417aef82e44e6
+ServerFileName = AutoCAD工具箱1.0.1.exe
+Flags = Sys64
+RegistryKey = HKUD\Software\zhanglei\AutoCAD工具箱\Version
+Version = 1.0.1.0
+UpdatedApplications = AutoCAD工具箱[1.0-1.0.1)
